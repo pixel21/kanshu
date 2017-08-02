@@ -1,0 +1,656 @@
+.brand {
+  display: inline-block;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #5a4c4c;
+  font-size: 30px;
+}
+
+.column {
+  top: 23px;
+}
+
+.link-block {
+  padding-left: 4px;
+}
+
+.image {
+  margin-right: 10px;
+  margin-bottom: 7px;
+  margin-left: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-align: left;
+}
+
+.column-2 {
+  position: static;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  margin-top: 28px;
+  padding-top: 11px;
+  text-align: left;
+}
+
+.text-block-2 {
+  display: inline-block;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #5a4c4c;
+  font-size: 20px;
+}
+
+.menulink {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 22px;
+  border-style: none solid;
+  border-width: 1px;
+  border-color: #435d75;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #e4e2e2;
+  font-size: 25px;
+}
+
+.menulink:hover {
+  color: #fac11c;
+}
+
+.menulink.w--current {
+  color: #fac11c;
+}
+
+.container {
+  display: inline-block;
+  text-align: center;
+}
+
+.navbar {
+  margin-top: 0px;
+  background-color: #1f2d3a;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.navbar:focus {
+  color: #fac11c;
+}
+
+.nav-bar {
+  background-color: #fac11c;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar:active {
+  color: #909090;
+}
+
+.row {
+  margin-bottom: 27px;
+}
+
+.hero-button {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fac11c;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.hero-heading {
+  padding-top: 119px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  text-align: center;
+}
+
+.slider-2 {
+  height: 350px;
+}
+
+.slide-2 {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .33), rgba(0, 0, 0, .33)), url('../images/AdobeStock_86667981.jpeg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .33), rgba(0, 0, 0, .33)), url('../images/AdobeStock_86667981.jpeg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.slide-3 {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/map.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/map.png');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+}
+
+.slider-arrows {
+  color: #fac11c;
+}
+
+.welcome-to-company-section {
+  padding-bottom: 33px;
+  border-top: 3px dotted #faac1c;
+  background-color: rgba(0, 152, 255, .81);
+  background-image: url('../images/cross-lines.png'), -webkit-linear-gradient(270deg, #1f2d3a, #1f2d3a);
+  background-image: url('../images/cross-lines.png'), linear-gradient(180deg, #1f2d3a, #1f2d3a);
+  background-position: 50% 50%, 0px 0px;
+  background-size: 100px, auto;
+}
+
+.welcome-heading {
+  padding-top: 28px;
+  padding-bottom: 5px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fac11c;
+  text-align: center;
+}
+
+.welcome-parag {
+  margin-bottom: 32px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #909090;
+  font-size: 20px;
+  text-align: center;
+}
+
+.welcome-parag.announcement-parag {
+  font-size: 15px;
+  text-align: left;
+}
+
+.welcomeimg {
+  position: static;
+  width: 350px;
+  height: 240px;
+  float: none;
+  border: 1px solid #fac11c;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .68), rgba(0, 0, 0, .68));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .68), rgba(0, 0, 0, .68));
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.tilecolumn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.section-tile {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.heading-6 {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fac11c;
+}
+
+.tileblock {
+  position: absolute;
+  left: 57px;
+  right: 0px;
+  bottom: 0px;
+  width: 350px;
+  height: 125px;
+  margin-right: 10px;
+  margin-bottom: 11px;
+  margin-left: 9px;
+  padding-bottom: 12px;
+  background-color: rgba(72, 74, 75, .43);
+}
+
+.order-catalog {
+  background-color: #faac1c;
+  background-image: url('../images/criss-cross-lines.png');
+  background-position: 0px 0px;
+  background-size: 50px;
+}
+
+.ordercatalog-heading {
+  margin-top: 54px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #1f2d3a;
+  font-size: 38px;
+  text-align: center;
+}
+
+.button-4 {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 250px;
+  margin: 33px auto 53px;
+  padding: 14px 18px 13px;
+  background-color: #1f2d3a;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.image-4 {
+  position: static;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+}
+
+.image-4.phone {
+  width: 59px;
+}
+
+.contactparag {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #909090;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.row-2 {
+  margin-top: 18px;
+  padding-bottom: 32px;
+}
+
+.field-label {
+  padding-bottom: 4px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #909090;
+  font-size: 17px;
+}
+
+.field-label.newsletter {
+  color: #1f2d3a;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.field-box {
+  margin-top: 8px;
+  padding-top: 9px;
+  border: 1px solid #fac11c;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.submit-button {
+  width: 150px;
+  margin-top: 13px;
+  background-color: #fac11c;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #1f2d3a;
+  font-size: 20px;
+}
+
+.submit-button.newsletterbtn {
+  margin-top: 20px;
+  background-color: #1f2d3a;
+  color: #fff;
+}
+
+.contactsection {
+  background-color: #1f2d3a;
+  background-image: url('../images/cross-lines.png');
+  background-position: 50% 50%;
+  background-size: 100px;
+  color: #1f2d3a;
+}
+
+.image-5 {
+  padding-top: 35px;
+}
+
+.announcementsection {
+  background-color: #1f2d3a;
+}
+
+.date {
+  display: inline-block;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-left: auto;
+  padding-left: 10px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fac11c;
+  font-size: 18px;
+}
+
+.date.comments {
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.announcement-header {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.footersection {
+  background-color: #fac11c;
+  background-image: url('../images/criss-cross-lines.png');
+  background-position: 0px 0px;
+  background-size: 75px;
+}
+
+.footerlogo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 22px;
+}
+
+.footermenuitems {
+  display: block;
+  padding-top: 13px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #1f2d3a;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+}
+
+.footerdiv2 {
+  padding-top: 10px;
+  padding-left: 59px;
+}
+
+.container-4 {
+  padding-top: 23px;
+  padding-bottom: 8px;
+}
+
+.row-3 {
+  padding-bottom: 18px;
+}
+
+.form {
+  padding-top: 14px;
+}
+
+.footer-brand {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #1f2d3a;
+  background-image: url('../images/cross-lines.png');
+  background-position: 50% 50%;
+  background-size: 75px;
+}
+
+.footernote {
+  padding-top: 18px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #fff;
+}
+
+.span {
+  color: #cebdbd;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.twitter {
+  left: 31px;
+  display: inline-block;
+  margin-right: -51px;
+  padding-top: 17px;
+  padding-right: 0px;
+  float: left;
+}
+
+.facebook {
+  position: absolute;
+  display: inline-block;
+  padding-top: 18px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.column-3 {
+  padding-bottom: 12px;
+}
+
+.pagehero {
+  height: 300px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .41), rgba(0, 0, 0, .41)), url('../images/AdobeStock_13920569_WM.jpeg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .41), rgba(0, 0, 0, .41)), url('../images/AdobeStock_13920569_WM.jpeg');
+  background-position: 0px 0px, 50% 35%;
+  background-size: auto, cover;
+}
+
+.pageheroheading {
+  padding-top: 104px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fac11c;
+  font-size: 55px;
+  text-align: center;
+}
+
+.pagecontent {
+  border-top: 3px dotted #fac11c;
+  background-color: #1f2d3a;
+}
+
+.paragraph {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #909090;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.block-quote {
+  margin-top: 21px;
+  padding-top: 10px;
+  border-left-color: #fac11c;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #909090;
+  font-size: 35px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.text-block-3 {
+  margin-top: 43px;
+  padding-top: 12px;
+  padding-bottom: 24px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #909090;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contactfieldname {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fac11c;
+  font-size: 16px;
+}
+
+.image-6 {
+  margin-top: 24px;
+  padding-top: 0px;
+  border: 1px solid #fac11c;
+}
+
+.contactus-header {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fac11c;
+  font-size: 40px;
+  text-align: center;
+}
+
+.row-4 {
+  padding-top: 45px;
+}
+
+.image-7 {
+  display: block;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading-7 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #909090;
+  font-size: 27px;
+  text-align: center;
+}
+
+.row-5 {
+  margin-top: 23px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 991px) {
+  .text-block-2 {
+    font-size: 15px;
+  }
+  .navbar {
+    text-align: center;
+  }
+  .hero-heading {
+    font-size: 33px;
+  }
+  .welcome-heading {
+    margin-bottom: 0px;
+    padding-bottom: 9px;
+  }
+  .welcome-parag {
+    margin-bottom: 30px;
+  }
+  .tileblock {
+    left: 0px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .twitter {
+    margin-right: -65px;
+  }
+  .column-3 {
+    padding-left: 0px;
+  }
+  .icon {
+    color: #e7cdcd;
+  }
+}
+
+@media (max-width: 767px) {
+  .column {
+    text-align: center;
+  }
+  .link-block {
+    text-align: center;
+  }
+  .column-2 {
+    text-align: center;
+  }
+  .hero-heading {
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: 25px;
+  }
+  .field-label.newsletter {
+    text-align: center;
+  }
+  .submit-button.newsletterbtn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footermenuitems {
+    text-align: center;
+  }
+  .footerdiv2 {
+    padding-left: 0px;
+  }
+  .footernote {
+    text-align: center;
+  }
+  .column-3 {
+    left: 107px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    padding-right: 0px;
+  }
+  .text-block-3 {
+    padding-left: 7px;
+  }
+}
+
+@media (max-width: 479px) {
+  .image {
+    margin-bottom: 0px;
+  }
+  .text-block-2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 10px;
+  }
+  .hero-heading {
+    padding-top: 16px;
+    font-size: 24px;
+  }
+  .slider-arrows {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    float: none;
+  }
+  .slider-arrows.right {
+    margin-left: 43px;
+  }
+  .tileblock {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: visible;
+    width: 300px;
+  }
+  .ordercatalog-heading {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .column-3 {
+    left: -10px;
+  }
+  .text-block-3 {
+    padding-left: 7px;
+  }
+}
